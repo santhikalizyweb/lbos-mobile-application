@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "LBOS",
+    "slug": "lbos-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.lizyweb.lbos",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.lizyweb.lbos"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "./plugins/withShortCxxPath"
+    ]
+  }
+}
